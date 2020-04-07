@@ -259,5 +259,3 @@ class AudioMaker {
   }
 
 }
-
-module.exports = AudioMaker;

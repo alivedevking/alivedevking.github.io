@@ -1,5 +1,4 @@
-let _audioMaker = require('./index.js');
-let audioMaker = new _audioMaker();
+let audioMaker = new AudioMaker();
 let makeOutputElement = (elem,blob) => {
     let outputElem  = $('#'+elem)[0];
     outputElem.controls = true;
